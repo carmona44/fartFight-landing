@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.fartfight",
+        "sha256_cert_fingerprints":
+          ["D2:39:D6:E3:A1:3B:91:A2:01:0E:36:7E:83:9B:EA:70:69:0E:3C:ED:BE:8A:D9:7B:E2:CF:66:8D:1B:82:29:9A"]
+      }
+    }
+  ]
