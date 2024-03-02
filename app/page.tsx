@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -22,29 +22,26 @@ export default function Home() {
 
       <div className="mb-10 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-center">
         <div className="group rounded-lg border border-transparent px-1 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            FartFight App
-          </h2>
+          <h2 className={`mb-3 text-2xl font-semibold`}>FartFight App</h2>
           <p className={`m-0 text-sm opacity-50`}>
             La aplicación que todo hijo de vecino estaba esperando
-            <br />¡Demuestra tu fuerza interior!
+            <br />
+            ¡Demuestra tu fuerza interior!
           </p>
         </div>
 
         <a
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://play.google.com/store/apps/details?id=com.fartfight"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Descárgala ¡YA!
-          </h2>
+          <h2 className={`mb-3 text-2xl font-semibold`}>Descárgala ¡YA!</h2>
           <span className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            {">>Enlace a la play store<<"}
+            {">>Pulsa aquí para descargar<<"}
           </span>
         </a>
       </div>
     </main>
-  )
+  );
 }
